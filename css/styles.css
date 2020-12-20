@@ -46,7 +46,6 @@ footer {
     display: flex;
     align-items: center;
     background-color:#17252A;
-    text-align:center;
     padding: 10px;
 }
 
@@ -66,12 +65,7 @@ footer {
 
 .footer-link { 
     display: inline;
-    float: right;
-    padding: 10px;
-}
-
-#footer-links {
-    float: right;
+    padding: 5px;
 }
 
 .social-link {
@@ -80,6 +74,6 @@ footer {
 }
 
 .social-link:hover {
-    color: ##FEFFFF;
+    color: #FEFFFF;
 }
 
