@@ -6,7 +6,6 @@
 
 header {
     height: 100vh;
-    /* background-image: url(/img/landing-page2.jpg); */
     background-color: #3AAFA9;
     display: flex;
     flex-direction: column;
@@ -24,4 +23,63 @@ header {
     font-size: 18px;
     color: #FEFFFF;
     font-style: italic;
+    margin-bottom: 15px;
 }
+
+.resume-button {
+	background-color:#3AAFA9;
+    color:#FEFFFF;
+    border:2px solid #FEFFFF;
+	border-radius:2px;
+	cursor:pointer;
+	font-size:18px;
+    padding:6px 20px;
+}
+
+.resume-button:hover {
+    background-color:#FEFFFF;
+    border-radius:2px;
+    color:#3AAFA9;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color:#17252A;
+    text-align:center;
+    padding: 10px;
+}
+
+#footer-text {
+    color:#FEFFFF;
+    font-size: 18px;
+}
+
+#footer-link-name {
+    color:#3AAFA9;
+    font-size: 18px;
+}
+
+#footer-link-name:hover {
+    color:#FEFFFF;
+}
+
+.footer-link { 
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+#footer-links {
+    float: right;
+}
+
+.social-link {
+    color: #3AAFA9;
+    transition-duration: 0.4s;
+}
+
+.social-link:hover {
+    color: ##FEFFFF;
+}
+
