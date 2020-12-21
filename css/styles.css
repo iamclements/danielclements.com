@@ -43,7 +43,8 @@ header {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     align-items: center;
     background-color:#17252A;
     padding: 10px;
@@ -61,6 +62,9 @@ footer {
 
 #footer-link-name:hover {
     color:#FEFFFF;
+}
+#footer-links {
+    grid-column-end: 4;
 }
 
 .footer-link { 
