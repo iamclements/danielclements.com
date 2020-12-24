@@ -17,6 +17,7 @@ header {
 #landing-page-name {
     font-size: 65px;
     color: #FEFFFF;
+    animation-duration: 1s;
 }
 
 #landing-page-subtitle {
@@ -81,3 +82,108 @@ footer {
     color: #FEFFFF;
 }
 
+section {
+    height: 90vh;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEF2F1;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;    
+}
+
+.form-group label {
+    margin-bottom: 100px;
+}
+
+.form-group input {
+    width: 100%;
+    font-size: 18px; 
+    border: 0px;
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section button {
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    color: #DEF2F1 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #17252A;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+section button:hover {
+    background: #3AAFA9;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+section textarea:focus, input:focus {
+    outline: none;
+}
+
+#status {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#status.success {
+    background-color: #2ed573;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: #e55039;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.container {
+    width: 800px;
+    max-width: 800px;
+}
