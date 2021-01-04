@@ -57,6 +57,13 @@ section {
     background-color: #DEF2F1;
 }
 
+#contact-me {
+    color: #17252A;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 .form-group {
     width: 100%;
     margin-top: 20px;
@@ -211,6 +218,10 @@ footer {
 
     #landing-page-subtitle {
         font-size: 14px;
+    }
+
+    #contact-me {
+        font-size: 20px;
     }
 
     .container {
