@@ -1,4 +1,4 @@
-# 🌐 DanielClements.com
+# 🌐 danielclements.com
 
 Welcome to the repository for my personal website, [danielclements.com](https://danielclements.com). This site is built using [Hugo](https://gohugo.io/), a fast and modern static site generator, and styled with the minimalist [Hermit-V2 theme](https://github.com/1bl4z3r/hermit-V2). It is deployed seamlessly using [Cloudflare Pages](https://pages.cloudflare.com/).
 
@@ -112,4 +112,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Feel free to reach out if you have any questions or feedback:
 - **Website**: [danielclements.com](https://danielclements.com)
 - **GitHub**: [iamclements](https://github.com/iamclements)
-```
