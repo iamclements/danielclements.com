@@ -1,6 +1,4 @@
-# Daniel Clements' Personal Website
-
-[![Website Status](https://img.shields.io/website-up-down-green-red/http/https://danielclements.com?label=danielclements.com)](https://danielclements.com)
+# danielclements.com
 
 A personal website built with Hugo, featuring the Hermit-V2 theme, and deployed with Cloudflare Pages.
 
