@@ -2,7 +2,7 @@ baseURL = "https://danielclements.com/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
-#enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
+enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
 languageCode = "en-us"
 
@@ -66,7 +66,7 @@ expiryDate = ["expiryDate"]
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   description = "Daniel Clements' IT blog"
-  # images = ["images/avatar.jpg"]
+  images = ["images/avatar.png"]
   themeColor = "#494f5c"
   accentColor = "#a29bfe"
 
@@ -77,7 +77,6 @@ expiryDate = ["expiryDate"]
   footerHideThemeVersion = true
   bgImg = "https://images.unsplash.com/photo-1516655855035-d5215bcb5604?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   gitUrl = "https://github.com/iamclements/danielclements.com"
-  bgImgOpacity = "1.0"
   justifyContent = false
 
   relatedPosts = true
